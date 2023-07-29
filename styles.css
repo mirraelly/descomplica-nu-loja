@@ -1,0 +1,63 @@
+.navbar-brand img{
+width: 5rem;
+height: 5rem;
+}
+
+.carousel-inner img {
+    height: 30rem;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+.quem-somos-section, #nossoTime, #produtos {
+    margin: 0 10rem;  
+    gap: 2rem;
+}
+
+#quemSomos p, #nossoTime p, #produtos p { 
+    text-align: justify; 
+    text-indent: 3rem;
+}
+
+.quem-somos-section img {
+   border-radius: 50px;
+}
+
+#nossoTime figure img {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 2px 3px 3px #ffc1079d;
+}
+
+.pessoas article:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pessoa {
+    gap: 40px;
+}
+
+.card img {
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+footer {
+    padding: 5rem;
+}
+
+.mapa {
+    border-radius: 10px;
+    overflow: hidden;
+}
